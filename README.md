@@ -16,11 +16,10 @@ import 'demo-wc-card/demo-wc-card.js';
 
 ```js script
 import { html } from 'lit-html';
+import './demo-wc-card.js';
 ```
 
 ```js story
-import './demo-wc-card.js';
-
 export const usage = () => {
   return html`
     <demo-wc-card></demo-wc-card>
