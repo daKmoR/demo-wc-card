@@ -15,7 +15,6 @@ import 'demo-wc-card/demo-wc-card.js';
 ```
 
 ```js script
-import { html } from 'lit-html';
 import './demo-wc-card.js';
 ```
 
