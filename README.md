@@ -15,7 +15,7 @@ import 'demo-wc-card/demo-wc-card.js';
 ```
 
 ```js script
-import './demo-wc-card.js';
+import 'demo-wc-card/demo-wc-card.js';
 ```
 
 ```js story
