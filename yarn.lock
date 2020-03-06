@@ -736,15 +736,16 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@d4kmor/mdjs-core@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@d4kmor/mdjs-core/-/mdjs-core-0.0.1.tgz#d30ca839c710c33de9b32d0398793db59b90ad90"
-  integrity sha512-IJAd7XL0OlroOIYIOvr4kJW/z8G83URBUS7j40oADCd7xe0wx261Lnp5E4EblseqOMwEfWBzs85r85hSPdM2kw==
+"@d4kmor/mdjs-core@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@d4kmor/mdjs-core/-/mdjs-core-0.0.5.tgz#0cce4c2e66b783266d70c65d1d7cff57dd6814c6"
+  integrity sha512-NTxFvOyr2JsWpq0Nlw2oWV5pGGVKcY40ikGaJhHgKhKqydzs/wk/S1Wz/CCFEMVzWDmtZgClqVLddT9bl4EHRA==
   dependencies:
+    "@mdjs/mdjs-preview" "^0.0.1"
+    "@mdjs/mdjs-story" "^0.0.1"
     "@types/unist" "^2.0.3"
     "@types/vfile" "^4.0.0"
-    "@wcd/dakmor.mdjs-story" "0.1.0"
-    es-module-lexer "^0.3.14"
+    es-module-lexer "^0.3.13"
     github-markdown-css "^3.0.1"
     rehype-autolink-headings "^2.0.5"
     rehype-raw "^4.0.1"
@@ -756,6 +757,20 @@
     unified "^8.4.2"
     unist-util-remove "^1.0.3"
     unist-util-visit "^2.0.1"
+
+"@mdjs/mdjs-preview@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@mdjs/mdjs-preview/-/mdjs-preview-0.0.1.tgz#a478ed4f0223302b4c710bb9193536342558a044"
+  integrity sha512-KCLSeM+vz/tZM5GLYM9khqE/AFgn6WC/GF8Aw72NodFWzSx4CvqojYHJ75vkKFwEDnD81AJ7zweAs3bTUAQrrg==
+  dependencies:
+    lit-element "^2.2.1"
+
+"@mdjs/mdjs-story@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@mdjs/mdjs-story/-/mdjs-story-0.0.1.tgz#aad15762dd881a532756fbff774113e9964dda88"
+  integrity sha512-04Nx9MQeC97X/gi4x4yPapJNxLggdXYnO0xAkXbg13cCC4dzb0CdnSslNTXSrVgDBHxj1C2EsfEiOUS5SvqqyQ==
+  dependencies:
+    lit-element "^2.2.1"
 
 "@open-wc/building-utils@^2.14.2":
   version "2.14.2"
@@ -966,13 +981,6 @@
   integrity sha512-eleP0/Cz8uVWxARDLi3Axq2+fDdN4ibAXoC6Pv8p6s7znXaUL7XvhgeIhjCiNMnvlLNP+tmCLd+RuCryGgmtEg==
   dependencies:
     vfile "*"
-
-"@wcd/dakmor.mdjs-story@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@wcd/dakmor.mdjs-story/-/dakmor.mdjs-story-0.1.0.tgz#e56673ad7020823258e36d467f682150a5edb532"
-  integrity sha512-Ldb4rpV+QolRmD2HtukkZMpAvOs3VavmYJnLt8CdvDyiPOdEh7K4iI+olHdjINMmXgu03n6WScs7xIUhk8HLcQ==
-  dependencies:
-    lit-element "^2.2.1"
 
 "@webcomponents/shadycss@^1.9.4":
   version "1.9.4"
@@ -2344,7 +2352,7 @@ es-dev-server@^1.40.0, es-dev-server@^1.5.0:
     useragent "^2.3.0"
     whatwg-url "^7.0.0"
 
-es-module-lexer@^0.3.13, es-module-lexer@^0.3.14:
+es-module-lexer@^0.3.13:
   version "0.3.17"
   resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-0.3.17.tgz#a248dec2870934d9054420fead19db095ea21537"
   integrity sha512-nwvMtzyEB6FhlyXBlV+BW2By3Vn2sUvlQBYP4LvdK8YpdbFQUOiBoeuB7/ip1+EbjmgNydkJ8+dIlyO09VP9BA==

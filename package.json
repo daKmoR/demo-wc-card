@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": "https://github.com/daKmoR/demo-wc-card",
   "dependencies": {
-    "@d4kmor/mdjs-core": "^0.0.1",
+    "@d4kmor/mdjs-core": "^0.0.5",
     "lit-element": "^2.0.1"
   },
   "lint-staged": {
