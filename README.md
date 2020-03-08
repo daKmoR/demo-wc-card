@@ -58,3 +58,7 @@ export const backSide = () => {
   `;
 };
 ```
+
+## Variations
+
+See more variations [here](./docs/variations.md).
