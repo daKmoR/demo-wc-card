@@ -1,4 +1,4 @@
-const { mdjsTransformer } = require('@d4kmor/mdjs-core');
+const { mdjsTransformer } = require('@mdjs/core');
 
 module.exports = {
   nodeResolve: true,

@@ -736,10 +736,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@d4kmor/mdjs-core@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@d4kmor/mdjs-core/-/mdjs-core-0.0.5.tgz#0cce4c2e66b783266d70c65d1d7cff57dd6814c6"
-  integrity sha512-NTxFvOyr2JsWpq0Nlw2oWV5pGGVKcY40ikGaJhHgKhKqydzs/wk/S1Wz/CCFEMVzWDmtZgClqVLddT9bl4EHRA==
+"@mdjs/core@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.1.8.tgz#69b0ae921eb326717f7e1734c36b09d0f04ce052"
+  integrity sha512-i+rsAYHFmxJpJ6yUQz0e/saCoj4tHKY8ptfWC1GNj1DYJznxjOX9uOBuomvGjH5LMgb9GnLE/kpw/J2B/tRgNQ==
   dependencies:
     "@mdjs/mdjs-preview" "^0.0.1"
     "@mdjs/mdjs-story" "^0.0.1"
