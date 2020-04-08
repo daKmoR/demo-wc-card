@@ -22,3 +22,9 @@ See main readme [here](../README.md).
 ## Variations
 
 See more variations [here](./variations.md).
+
+```js script
+export default {
+  title: 'Demo Card/Details',
+};
+```

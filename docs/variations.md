@@ -34,3 +34,9 @@ export const longText = () => {
   `;
 };
 ```
+
+```js script
+export default {
+  title: 'Demo Card/Variations',
+};
+```

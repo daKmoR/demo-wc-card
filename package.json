@@ -26,10 +26,12 @@
     "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
     "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",
     "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
+    "storybook": "start-storybook --experimental-md-docs",
     "test": "karma start --coverage"
   },
   "devDependencies": {
     "@mdjs/core": "^0.1.8",
+    "@open-wc/demoing-storybook": "^1.15.2",
     "@open-wc/eslint-config": "^1.0.0",
     "@open-wc/prettier-config": "^0.1.10",
     "@open-wc/testing": "^2.0.0",

@@ -62,3 +62,9 @@ export const backSide = () => {
 ## Variations
 
 See more variations [here](./docs/variations.md).
+
+```js script
+export default {
+  title: 'Demo Card/Main',
+};
+```
