@@ -1085,7 +1085,7 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@mdjs/core@0.1.9", "@mdjs/core@^0.1.9":
+"@mdjs/core@^0.1.9":
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.1.9.tgz#4855288e3615541778a96838f6637efba3da01f4"
   integrity sha512-e+lA4ZgnfZg/AoEpFqfrZWHkjrExPl0ZmlHL+4gqxcX3cHIWeM0x6J3sha2NQdGHL/yBYff/qJ5qAiysnHvs7w==
@@ -1204,7 +1204,7 @@
     "@open-wc/semantic-dom-diff" "^0.13.16"
     "@types/chai" "^4.1.7"
 
-"@open-wc/demoing-storybook@2.0.0", "@open-wc/demoing-storybook@^2.0.0":
+"@open-wc/demoing-storybook@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@open-wc/demoing-storybook/-/demoing-storybook-2.0.0.tgz#9a069634bc7096aae8852383874936447d921d5d"
   integrity sha512-N1ka+g6u5R+HTWCh6ZxywDaRMNvgga8uHNeEmyTH7NEQAYBOc1JSzMDhXLEtSUbl51iydE6hK+KfXLdNEV3hMQ==
@@ -1236,7 +1236,7 @@
     storybook-addon-markdown-docs "^0.2.4"
     storybook-prebuilt "^1.5.0"
 
-"@open-wc/eslint-config@2.0.4":
+"@open-wc/eslint-config@^2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@open-wc/eslint-config/-/eslint-config-2.0.4.tgz#9e371aef2b2c5bf19e43910f3a7f2c31a6b2e458"
   integrity sha512-FBTIPijwicxIG5mKY6XRm8PDH9Nx1D2YUkYQGJu4ySFayUKZ/uhdChKBxOwlV+Ftua23pYaNF7QjO1qi1FaJlg==
@@ -1309,7 +1309,7 @@
   resolved "https://registry.yarnpkg.com/@open-wc/testing-helpers/-/testing-helpers-1.7.1.tgz#e93a4931e0d117deb7185ce9ea0acc87f6de47c0"
   integrity sha512-v7AYqIGA50mFfwuZNqCxB0ZWI+aioZtiprBMl5bZT4eRMRz876jRMiX9y327RwwisGie6+HDIJHwhWjrd1GdOA==
 
-"@open-wc/testing-karma@3.3.12":
+"@open-wc/testing-karma@^3.3.12":
   version "3.3.12"
   resolved "https://registry.yarnpkg.com/@open-wc/testing-karma/-/testing-karma-3.3.12.tgz#c6e3dc0415789b985369aa4c0ce6a0806845ff43"
   integrity sha512-Hl0VGwBUQKuyuDrtr2dLi1SdD/BbkImuuE/Ieui37RyRevZy+QH97dIHvHLOSyrCqzaEzV9ePvxiPc7lEHnYIQ==
@@ -1326,7 +1326,7 @@
     karma-source-map-support "^1.3.0"
     mocha "^6.2.2"
 
-"@open-wc/testing@2.5.11":
+"@open-wc/testing@^2.5.11":
   version "2.5.11"
   resolved "https://registry.yarnpkg.com/@open-wc/testing/-/testing-2.5.11.tgz#97c455ade0645cd2c83b7a902db4ea072f8523d0"
   integrity sha512-QtLA5jGpfEJOoC0ka2OAqRAAZ0/pbgWPVLzgKPu//OC3CDxvVgKdEObW9pXVKpti5oLa7NRMxeJcTMkE4aO68Q==
@@ -3434,7 +3434,7 @@ es-abstract@^1.17.0, es-abstract@^1.17.0-next.1, es-abstract@^1.17.2, es-abstrac
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@1.46.2, es-dev-server@^1.46.2:
+es-dev-server@^1.46.2:
   version "1.46.2"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.46.2.tgz#f2a17cc7a5dab1e8a7fa212b586cb51f3abea32f"
   integrity sha512-pqJ1bejSEbcxXFcMi4egkLaLWg5ASaxNeSRiGS9vpxu3S5f0aWX8XgYwifT6VeBpEHalkwb10prm/nvDCZKQlw==
@@ -4600,7 +4600,7 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-husky@4.2.5:
+husky@^4.2.5:
   version "4.2.5"
   resolved "https://registry.yarnpkg.com/husky/-/husky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
   integrity sha512-SYZ95AjKcX7goYVZtVZF2i6XiZcHknw50iXvY7b0MiGoj5RwdgRQNEHdb+gPDPCXKlzwrybjFjkL6FOj8uRhZQ==
@@ -5596,7 +5596,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@10.1.3:
+lint-staged@^10.1.3:
   version "10.1.3"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.1.3.tgz#da27713d3ac519da305381b4de87d5f866b1d2f1"
   integrity sha512-o2OkLxgVns5RwSC5QF7waeAjJA5nz5gnUfqL311LkZcFipKV7TztrSlhNUK5nQX9H0E5NELAdduMQ+M/JPT7RQ==

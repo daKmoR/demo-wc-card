@@ -12,8 +12,7 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "module": "index.js",
@@ -31,15 +30,15 @@
     "test": "karma start --coverage"
   },
   "devDependencies": {
-    "@mdjs/core": "0.1.9",
-    "@open-wc/demoing-storybook": "2.0.0",
-    "@open-wc/eslint-config": "2.0.4",
+    "@mdjs/core": "^0.1.9",
+    "@open-wc/demoing-storybook": "^2.0.0",
+    "@open-wc/eslint-config": "^2.0.4",
     "@open-wc/prettier-config": "^0.1.10",
-    "@open-wc/testing": "2.5.11",
-    "@open-wc/testing-karma": "3.3.12",
-    "es-dev-server": "1.46.2",
-    "husky": "4.2.5",
-    "lint-staged": "10.1.3",
+    "@open-wc/testing": "^2.5.11",
+    "@open-wc/testing-karma": "^3.3.12",
+    "es-dev-server": "^1.46.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.3",
     "webpack-merge": "^4.1.5"
   },
   "eslintConfig": {
